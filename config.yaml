@@ -1,0 +1,30 @@
+BaseUrl: "https://c1nty.github.io/"
+LanguageCode: "zh-cn"
+Title: "Beg"
+theme: "Beg"
+
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+canonifyurls: false
+
+Params:
+  #Author: "Daisuke Tsuji"
+  #DateForm: "Mon, Jan 2, 2006"
+  #GoogleAnalyticsUserID: "UA-55005303-5"
+  #Facebook: "daisuke.tsuji.735"
+  #Twitter: "dim0627"
+  #Github: "dim0627"
+  ShowRelatedPost: True
+  Disqus: "unresolved"
+  SyntaxHighlightTheme: "github.min.css"
+
+Indexes:
+  tag: "tags"
+
+permalinks:
+  post: /blog/:year/:month/:slug/
+
+MetadataFormat: "yaml"
