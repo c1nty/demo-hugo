@@ -1,6 +1,6 @@
 BaseUrl: "https://c1nty.github.io/"
 LanguageCode: "zh-cn"
-Title: "Beg"
+Title: "笔记"
 theme: "Beg"
 
 contentdir: "content"
@@ -25,6 +25,6 @@ Indexes:
   tag: "tags"
 
 permalinks:
-  post: /blog/:year/:month/:slug/
+  posts: /blog/:year/:month/:slug/
 
 MetadataFormat: "yaml"
